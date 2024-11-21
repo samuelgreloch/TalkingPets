@@ -1,10 +1,10 @@
-public class Cat {
-    public String getName() {
-   return "dude"; }
-
-    public String setName() {
-        return "Dude";
+public class Cat extends Pet {
+    public Cat(String name) {
+        super(name);
     }
+
+    public Cat () {
+   super("dude"); }
 
 
     public String speak() {

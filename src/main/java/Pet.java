@@ -8,14 +8,19 @@ public Pet(String name){
     this.name = name;
 }
 
- public Object getName(){
+ public String getName(){
 
     return name;
 
     }
 
 
-    public void setName (){
+    public String setName (){
+
+    this.name = name;
+        return null;
     }
+
+
 
 }
